@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+/* general componentes */
+div { 
+    width: 280px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    opacity: 90%;
+}
+
+div p {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+div a {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/* Colores de cada elemento*/
+
+.Main-Container-Sedans {
+    background-color: var(--Bright-orange);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.Main-Container-Sedans span { 
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-image:url("images/icon-sedans.svg");
+    background-repeat: no-repeat;
+}
+
+.Main-Container-Sedans a {
+    color: var(--Bright-orange);
+}
+
+
+.Main-Container-SUVs {
+    background-color: var(--Dark-cyan);
+}
+
+.Main-Container-SUVs span { 
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-image:url("images/icon-suvs.svg");
+    background-repeat: no-repeat;
+}
+
+.Main-Container-SUVs a {
+    color: var(--Dark-cyan);
+}
+
+/* 3RO*/
+.Main-Container-Luxury {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0 0 10px 10px ; 
+}
+
+.Main-Container-Luxury span { 
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-image:url("images/icon-luxury.svg");
+    background-repeat: no-repeat;
+}
+
+.Main-Container-Luxury a {
+    color: var(--Very-dark-cyan);
+}
+
+/* Pie*/
+.attribution {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 11px; 
+    text-align: center; 
+    color: black;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
