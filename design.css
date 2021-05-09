@@ -15,13 +15,23 @@
 body{
     font-family: 'Lexend Deca', sans-serif;
     color: white;
+    margin: 0;
 }
 
 /* general componentes */
+.Main {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
 div { 
     width: 280px;
     height: 400px;
-    margin: 0 auto;
     padding: 20px;
     padding-left: 30px;
     display: flex;
@@ -52,7 +62,7 @@ div a {
     align-items: center;
     text-decoration: none;
     background-color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 30px;
 }
 
@@ -75,6 +85,10 @@ div a {
     color: var(--Bright-orange);
 }
 
+.Main-Container-Sedans a:hover {
+    background-color: var(--Bright-orange);
+    color: white;
+}
 
 .Main-Container-SUVs {
     background-color: var(--Dark-cyan);
@@ -90,6 +104,11 @@ div a {
 
 .Main-Container-SUVs a {
     color: var(--Dark-cyan);
+}
+
+.Main-Container-SUVs a:hover {
+    background-color: var(--Dark-cyan);
+    color: white;
 }
 
 /* 3RO*/
@@ -110,6 +129,11 @@ div a {
     color: var(--Very-dark-cyan);
 }
 
+.Main-Container-Luxury a:hover {
+    background-color: var(--Very-dark-cyan);
+    color: white;
+}
+
 /* Pie*/
 .attribution {
     margin-top: 20px;
@@ -122,3 +146,4 @@ div a {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+
