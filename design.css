@@ -137,8 +137,7 @@ div a {
 /* Pie*/
 .attribution {
     margin-top: 20px;
-    display: flex; 
-    justify-content: space-between;
+
     font-size: 11px; 
     text-align: center; 
     color: black;
