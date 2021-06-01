@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
@@ -94,3 +95,7 @@ This challenge is completely free. Please share it with anyone who will find it 
 =======
 # asideComponent
 >>>>>>> cb764efb1c4cf60f166766554f8a443cbcacafa5
+=======
+# Componente_Columna
+Es un componente/aside de una lista de opciones, con Responsive Design.
+>>>>>>> b2ce3011ad1ea93e98a6554a7a8e5ced6fc3e5e9
